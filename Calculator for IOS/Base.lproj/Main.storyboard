@@ -19,7 +19,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="zDY-Fh-r3i">
                                 <rect key="frame" x="54" y="10" width="788" height="373"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="input label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqe-u9-PFE">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqe-u9-PFE">
                                         <rect key="frame" x="0.0" y="0.0" width="788" height="50.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -58,7 +58,7 @@
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=regular" hidden="YES"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPl-Ld-NO3">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+/-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPl-Ld-NO3">
                                                 <rect key="frame" x="339" y="0.0" width="110" height="50.5"/>
                                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>

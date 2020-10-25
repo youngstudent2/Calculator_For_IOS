@@ -15,6 +15,8 @@
 		BC43AFE525454EBC0072B3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC43AFE325454EBC0072B3F1 /* LaunchScreen.storyboard */; };
 		BC43AFF025454EBC0072B3F1 /* Calculator_for_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43AFEF25454EBC0072B3F1 /* Calculator_for_IOSTests.swift */; };
 		BC43AFFB25454EBC0072B3F1 /* Calculator_for_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43AFFA25454EBC0072B3F1 /* Calculator_for_IOSUITests.swift */; };
+		BCF47A4B2545ACC9001166E8 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF47A4A2545ACC9001166E8 /* Calculator.swift */; };
+		BCF47A502545B91E001166E8 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF47A4F2545B91E001166E8 /* Operator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BC43AFF625454EBC0072B3F1 /* Calculator for IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator for IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC43AFFA25454EBC0072B3F1 /* Calculator_for_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_for_IOSUITests.swift; sourceTree = "<group>"; };
 		BC43AFFC25454EBC0072B3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF47A4A2545ACC9001166E8 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		BCF47A4F2545B91E001166E8 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		BC43AFD725454EBB0072B3F1 /* Calculator for IOS */ = {
 			isa = PBXGroup;
 			children = (
+				BCF47A462545AC9D001166E8 /* Model */,
 				BC43AFD825454EBB0072B3F1 /* AppDelegate.swift */,
 				BC43AFDA25454EBB0072B3F1 /* SceneDelegate.swift */,
 				BC43AFDC25454EBB0072B3F1 /* ViewController.swift */,
@@ -126,6 +131,15 @@
 				BC43AFFC25454EBC0072B3F1 /* Info.plist */,
 			);
 			path = "Calculator for IOSUITests";
+			sourceTree = "<group>";
+		};
+		BCF47A462545AC9D001166E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCF47A4A2545ACC9001166E8 /* Calculator.swift */,
+				BCF47A4F2545B91E001166E8 /* Operator.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC43AFDD25454EBB0072B3F1 /* ViewController.swift in Sources */,
+				BCF47A4B2545ACC9001166E8 /* Calculator.swift in Sources */,
+				BCF47A502545B91E001166E8 /* Operator.swift in Sources */,
 				BC43AFD925454EBB0072B3F1 /* AppDelegate.swift in Sources */,
 				BC43AFDB25454EBB0072B3F1 /* SceneDelegate.swift in Sources */,
 			);
