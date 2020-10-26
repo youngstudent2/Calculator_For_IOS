@@ -7,16 +7,16 @@
 
 import Foundation
 enum Operator{
-    enum Number{
-        case dot,zero,one,two,three,four,five,six,seven,eight,nine
+    enum Number:Int{
+        case e,dot,zero,one,two,three,four,five,six,seven,eight,nine
     }
-    enum Unary{
-        case neg,ln,sqr,sqrt,sqrt_y,sqr_3,sqr_y,e,log,sin,cos,tan
+    enum Unary:Int{
+        case neg,ln,sqr,sqrt,sqrt_y,sqr_3,log,sin,cos,tan
     }
-    enum Binary{
-        case mul,sub,add,div,mod
+    enum Binary:Int{
+        case mul,sub,add,div,mod,sqr_y
     }
-    enum Function{
+    enum Function:Int{
         case eq
     }
 }
